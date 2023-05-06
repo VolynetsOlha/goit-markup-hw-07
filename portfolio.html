@@ -70,7 +70,7 @@
         </button>
       </div>
       <div class="js-menu-container menu-container" id="menu-container">
-        <button type="button" class="close-btn js-close-menu" data-modal-close>
+        <button type="button" class="close-btn js-close-menu">
           <svg class="close-btn-icon" height="18" width="18">
             <use href="./images/icon.svg#icon-close-btn"></use>
           </svg>
@@ -163,12 +163,66 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/interface-concept.jpg"
-                    alt="Interface concept"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-desctop@1x.webp 1x,
+                        ./images/portfolio/interface-concept-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-desctop@1x.jpg 1x,
+                        ./images/portfolio/interface-concept-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-tablet@1x.webp 1x,
+                        ./images/portfolio/interface-concept-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-tablet@1x.jpg 1x,
+                        ./images/portfolio/interface-concept-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-phone@1x.webp 1x,
+                        ./images/portfolio/interface-concept-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/interface-concept-phone@1x.jpg 1x,
+                        ./images/portfolio/interface-concept-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/interface-concept-phone@1x.jpg"
+                      alt="Interface concept"
+                      width="360"
+                      height="300"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -184,13 +238,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/phone.jpg"
-                    alt="Phone payment"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/phone-desctop@1x.webp 1x,
+                        ./images/portfolio/phone-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/phone-desctop@1x.jpg 1x,
+                        ./images/portfolio/phone-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/phone-tablet@1x.webp 1x,
+                        ./images/portfolio/phone-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/phone-tablet@1x.jpg 1x,
+                        ./images/portfolio/phone-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/phone-phone@1x.webp 1x,
+                        ./images/portfolio/phone-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/phone-phone@1x.jpg 1x,
+                        ./images/portfolio/phone-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/phone-phone@1x.jpg"
+                      alt="Phone payment"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -206,13 +314,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/devices.jpg"
-                    alt="Phone and laptop"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/devices-desctop@1x.webp 1x,
+                        ./images/portfolio/devices-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/devices-desctop@1x.jpg 1x,
+                        ./images/portfolio/devices-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/devices-tablet@1x.webp 1x,
+                        ./images/portfolio/devices-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/devices-tablet@1x.jpg 1x,
+                        ./images/portfolio/devices-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/devices-phone@1x.webp 1x,
+                        ./images/portfolio/devices-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/devices-phone@1x.jpg 1x,
+                        ./images/portfolio/devices-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/devices-phone@1x.jpg"
+                      alt="Phone and laptop"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -228,13 +390,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/helm.jpg"
-                    alt="Driver and helm"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/helm-desctop@1x.webp 1x,
+                        ./images/portfolio/helm-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/helm-desctop@1x.jpg 1x,
+                        ./images/portfolio/helm-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/helm-tablet@1x.webp 1x,
+                        ./images/portfolio/helm-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/helm-tablet@1x.jpg 1x,
+                        ./images/portfolio/helm-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/helm-phone@1x.webp 1x,
+                        ./images/portfolio/helm-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/helm-phone@1x.jpg 1x,
+                        ./images/portfolio/helm-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/helm-phone@1x.jpg"
+                      alt="Driver and helm"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -250,13 +466,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/screen.jpg"
-                    alt="Phone screen"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/screen-desctop@1x.webp 1x,
+                        ./images/portfolio/screen-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/screen-desctop@1x.jpg 1x,
+                        ./images/portfolio/screen-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/screen-tablet@1x.webp 1x,
+                        ./images/portfolio/screen-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/screen-tablet@1x.jpg 1x,
+                        ./images/portfolio/screen-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/screen-phone@1x.webp 1x,
+                        ./images/portfolio/screen-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/screen-phone@1x.jpg 1x,
+                        ./images/portfolio/screen-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/screen-phone@1x.jpg"
+                      alt="Phone screen"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -272,13 +542,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/girl.jpg"
-                    alt="Girl with phone and headphone"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/girl-desctop@1x.webp 1x,
+                        ./images/portfolio/girl-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/girl-desctop@1x.jpg 1x,
+                        ./images/portfolio/girl-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/girl-tablet@1x.webp 1x,
+                        ./images/portfolio/girl-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/girl-tablet@1x.jpg 1x,
+                        ./images/portfolio/girl-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/girl-phone@1x.webp 1x,
+                        ./images/portfolio/girl-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/girl-phone@1x.jpg 1x,
+                        ./images/portfolio/girl-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/girl-phone@1x.jpg"
+                      alt="Girl with phone and headphone"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -294,13 +618,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/stories-concept.jpg"
-                    alt="Stories concept for Instagram"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <!-- Desctop screen -->
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-desctop@1x.webp 1x,
+                        ./images/portfolio/stories-concept-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-desctop@1x.jpg 1x,
+                        ./images/portfolio/stories-concept-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-tablet@1x.webp 1x,
+                        ./images/portfolio/stories-concept-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-tablet@1x.jpg 1x,
+                        ./images/portfolio/stories-concept-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-phone@1x.webp 1x,
+                        ./images/portfolio/stories-concept-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/stories-concept-phone@1x.jpg 1x,
+                        ./images/portfolio/stories-concept-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/stories-concept-phone@1x.jpg"
+                      alt="Stories concept for Instagram"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -316,13 +694,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/fruits.jpg"
-                    alt="Bag with fruits"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/fruits-desctop@1x.webp 1x,
+                        ./images/portfolio/fruits-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/fruits-desctop@1x.jpg 1x,
+                        ./images/portfolio/fruits-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/fruits-tablet@1x.webp 1x,
+                        ./images/portfolio/fruits-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/fruits-tablet@1x.jpg 1x,
+                        ./images/portfolio/fruits-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/fruits-phone@1x.webp 1x,
+                        ./images/portfolio/fruits-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/fruits-phone@1x.jpg 1x,
+                        ./images/portfolio/fruits-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/fruits-phone@1x.jpg"
+                      alt="Bag with fruits"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -338,13 +770,67 @@
             <li class="img-card">
               <a class="link img-link" href="">
                 <div class="overlay-box">
-                  <img
-                    src="./images/portfolio/coffee.jpg"
-                    alt="Cup of coffee"
-                    width="360"
-                    height="300"
-                    class="img-background"
-                  />
+                  <picture>
+                    <!-- Desctop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/coffee-desctop@1x.webp 1x,
+                        ./images/portfolio/coffee-desctop@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/coffee-desctop@1x.jpg 1x,
+                        ./images/portfolio/coffee-desctop@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/coffee-tablet@1x.webp 1x,
+                        ./images/portfolio/coffee-tablet@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/coffee-tablet@1x.jpg 1x,
+                        ./images/portfolio/coffee-tablet@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- Mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/coffee-phone@1x.webp 1x,
+                        ./images/portfolio/coffee-phone@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/coffee-phone@1x.jpg 1x,
+                        ./images/portfolio/coffee-phone@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/coffee-phone@1x.jpg"
+                      alt="Cup of coffee"
+                      width="360"
+                      height="300"
+                      class="img-background"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
