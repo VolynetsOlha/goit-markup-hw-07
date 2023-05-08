@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Header navigation -->
-    <header class="header-section">
+    <header class="header-section header-section-portfolio">
       <div class="container header-container">
         <nav class="navigation">
           <a class="logo" href="./index.html"
@@ -75,35 +75,33 @@
             <use href="./images/icon.svg#icon-close-btn"></use>
           </svg>
         </button>
-        <div class="mobile-menu">
-          <ul class="list mobile-nav-list">
-            <li>
-              <a class="link nav-link-mobile" href="./index.html">Studio</a>
-            </li>
-            <li>
-              <a class="link nav-link-mobile" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a class="link nav-link-mobile" href="">Contacts</a>
-            </li>
-          </ul>
-          <ul class="list mobile-contact-list">
-            <li>
-              <a class="link contact-link-tel-mobile" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li>
-              <a
-                class="link contact-link-mail-mobile"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="list mobile-nav-list">
+          <li class="mobile-nav-item">
+            <a class="link nav-link-mobile" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="link nav-link-mobile current" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a class="link nav-link-mobile" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="list mobile-contact-list">
+          <li class="contact-item-mobile">
+            <a class="link contact-link-tel-mobile" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="contact-item-mobile">
+            <a
+              class="link contact-link-mail-mobile"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
         <ul class="list social-media-list-mobile">
           <li>
             <a href="" class="social-media-link">
@@ -218,8 +216,8 @@
                     <img
                       src="./images/portfolio/interface-concept-phone@1x.jpg"
                       alt="Interface concept"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       loading="lazy"
                     />
                   </picture>
@@ -293,8 +291,8 @@
                     <img
                       src="./images/portfolio/phone-phone@1x.jpg"
                       alt="Phone payment"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -369,8 +367,8 @@
                     <img
                       src="./images/portfolio/devices-phone@1x.jpg"
                       alt="Phone and laptop"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -445,8 +443,8 @@
                     <img
                       src="./images/portfolio/helm-phone@1x.jpg"
                       alt="Driver and helm"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -521,8 +519,8 @@
                     <img
                       src="./images/portfolio/screen-phone@1x.jpg"
                       alt="Phone screen"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -597,8 +595,8 @@
                     <img
                       src="./images/portfolio/girl-phone@1x.jpg"
                       alt="Girl with phone and headphone"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -673,8 +671,8 @@
                     <img
                       src="./images/portfolio/stories-concept-phone@1x.jpg"
                       alt="Stories concept for Instagram"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -749,8 +747,8 @@
                     <img
                       src="./images/portfolio/fruits-phone@1x.jpg"
                       alt="Bag with fruits"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -825,8 +823,8 @@
                     <img
                       src="./images/portfolio/coffee-phone@1x.jpg"
                       alt="Cup of coffee"
-                      width="360"
-                      height="300"
+                      width="396"
+                      height="280"
                       class="img-background"
                       loading="lazy"
                     />
@@ -911,5 +909,12 @@
         </form>
       </div>
     </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
